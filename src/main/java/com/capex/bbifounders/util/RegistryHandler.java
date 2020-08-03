@@ -4,8 +4,10 @@ import com.capex.bbifounders.TheFounders;
 import com.capex.bbifounders.blocks.BlockItemBase;
 import com.capex.bbifounders.items.ItemBase;
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -29,7 +31,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> VETERAN_BADGE = ITEMS.register("veteran_badge", ItemBase::new);
 
     // BLOCKS
-    public static final RegistryObject<Block> BIGBOYIUM_ORE = BLOCKS.register("bigboyium_ore", () -> new Block(Block.Properties.create(Material.ROCK)));
+    public static final RegistryObject<Block> BIGBOYIUM_ORE = BLOCKS.register("bigboyium_ore", () -> new Block(
+            Block.Properties.create(Material.IRON).harvestLevel(2).harvestTool(ToolType.PICKAXE).hardnessAndResistance(2.0f, 10.0f).sound(SoundType.STONE)));
 
     // BLOCK ITEMS
     public static final RegistryObject<Item> BIGBOYIUM_ORE_ITEM = ITEMS.register("bigboyium_ore", () -> new BlockItemBase(BIGBOYIUM_ORE.get()));
