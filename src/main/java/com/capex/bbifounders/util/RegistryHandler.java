@@ -29,6 +29,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> BIGBOYIUM = ITEMS.register("bigboyium", ItemBase::new);
     public static final RegistryObject<Item> CHARITY_BADGE = ITEMS.register("charity_badge", ItemBase::new);
     public static final RegistryObject<Item> VETERAN_BADGE = ITEMS.register("veteran_badge", ItemBase::new);
+    public static final RegistryObject<Item> WILL_OF_THE_FOUNDERS = ITEMS.register("will_of_the_founders", ItemBase::new);
 
     // BLOCKS
     public static final RegistryObject<Block> BIGBOYIUM_ORE = BLOCKS.register("bigboyium_ore", () -> new Block(

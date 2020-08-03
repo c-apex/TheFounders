@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#R#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "bbifounders:bigboyium"
+    },
+    "R": {
+      "item": "bbifounders:will_of_the_founders"
+    }
+  },
+  "result": {
+    "item": "bbifounders:steel_of_the_founders",
+    "count": 1
+  }
+}
