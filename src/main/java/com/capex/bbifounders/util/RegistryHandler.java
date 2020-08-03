@@ -27,7 +27,6 @@ public class RegistryHandler {
     public static final RegistryObject<Item> BIGBOYIUM = ITEMS.register("bigboyium", ItemBase::new);
 
     // BLOCKS
-    //public static final RegistryObject<Block> BIGBOYIUM_ORE = BLOCKS.register("bigboyium_ore", BigboyiumOreBlock::new);
     public static final RegistryObject<Block> BIGBOYIUM_ORE = BLOCKS.register("bigboyium_ore", () -> new Block(Block.Properties.create(Material.ROCK)));
 
     // BLOCK ITEMS

@@ -1,10 +1,11 @@
 package com.capex.bbifounders;
 
 import com.capex.bbifounders.util.RegistryHandler;
-import net.minecraft.item.Item;
+import com.capex.bbifounders.world.gen.BBIOreGen;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;

@@ -3,4 +3,6 @@
 /.gradle/**
 /build/**
 /src/test/**
+/out/**
+
 .DS_Store
