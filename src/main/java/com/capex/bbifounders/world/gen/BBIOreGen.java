@@ -19,7 +19,7 @@ public class BBIOreGen {
     public static void generateOre() {
         for (Biome biome : ForgeRegistries.BIOMES) {
             ConfiguredPlacement customConfig = Placement.COUNT_RANGE
-                    .configure(new CountRangeConfig(20, 5, 5, 25));
+                    .configure(new CountRangeConfig(4, 5, 5, 25));
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                     .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.BIGBOYIUM_ORE.get().getDefaultState(), 10))
                     .withPlacement(customConfig));

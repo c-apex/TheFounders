@@ -25,6 +25,8 @@ public class RegistryHandler {
     // ITEMS
     public static final RegistryObject<Item> STEEL_OF_THE_FOUNDERS = ITEMS.register("steel_of_the_founders", ItemBase::new);
     public static final RegistryObject<Item> BIGBOYIUM = ITEMS.register("bigboyium", ItemBase::new);
+    public static final RegistryObject<Item> CHARITY_BADGE = ITEMS.register("charity_badge", ItemBase::new);
+    public static final RegistryObject<Item> VETERAN_BADGE = ITEMS.register("veteran_badge", ItemBase::new);
 
     // BLOCKS
     public static final RegistryObject<Block> BIGBOYIUM_ORE = BLOCKS.register("bigboyium_ore", () -> new Block(Block.Properties.create(Material.ROCK)));

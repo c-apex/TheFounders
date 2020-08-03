@@ -39,6 +39,7 @@ public class TheFounders
     {
         // some preinit code
         LOGGER.info("**BRAAAAAAAAM** The Big Boys have arrived!");
+        BBIOreGen.generateOre();
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
