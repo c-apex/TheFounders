@@ -2,11 +2,15 @@ package com.capex.bbifounders.util;
 
 import com.capex.bbifounders.TheFounders;
 import com.capex.bbifounders.blocks.BlockItemBase;
+import com.capex.bbifounders.entities.Founder;
 import com.capex.bbifounders.items.ItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.entity.EntityClassification;
+import net.minecraft.entity.EntityType;
 import net.minecraft.item.Item;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -18,6 +22,7 @@ public class RegistryHandler {
 
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TheFounders.MOD_ID);
     private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TheFounders.MOD_ID);
+    public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES, TheFounders.MOD_ID);
 
     public static void init () {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
@@ -37,4 +42,15 @@ public class RegistryHandler {
 
     // BLOCK ITEMS
     public static final RegistryObject<Item> BIGBOYIUM_ORE_ITEM = ITEMS.register("bigboyium_ore", () -> new BlockItemBase(BIGBOYIUM_ORE.get()));
+
+    // ENTITY TYPES
+    /*
+    FIX LATER: Aug 3, 2020
+    entities/Founder class seems to be referenced, just not registered as expected, meaning it does not load in game.
+     */
+    public static final RegistryObject<EntityType<Founder>> FOUNDER = ENTITY_TYPES.register("founder",
+            () -> EntityType.Builder.create(Founder::new, EntityClassification.CREATURE)
+                    .size(1.0f, 1.0f)
+                    .build(new ResourceLocation(TheFounders.MOD_ID, "founder").toString()));
+
 }
