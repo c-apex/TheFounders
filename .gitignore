@@ -1,4 +1,6 @@
 /run/**
 /.idea/**
+/.gradle/**
 /build/**
 /src/test/**
+.DS_Store
