@@ -1,0 +1,22 @@
+{
+  "variants": [
+    {
+      "key": "counterweight/steel_of_the_founders",
+      "durability": 60,
+      "integrity": -2,
+      "effects": {
+        "counterweight": 5
+      },
+      "glyph": {
+        "tint": "51444E",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/steel_of_the_founders"
+        }
+      ]
+    }
+  ]
+}

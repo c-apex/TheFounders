@@ -1,0 +1,54 @@
+{
+  "variants": [
+    {
+      "key": "basic_blade/bigboyium",
+      "durability": 1901,
+      "integrity": -2,
+      "magicCapacity": 70,
+      "damage": 7,
+      "attackSpeed": 0.3,
+      "effects": {
+        "sweeping": 1
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          0.9375
+        ]
+      },
+      "glyph": {
+        "tint": "51444E"
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/basic_blade/bigboyium"
+        }
+      ]
+    },
+    {
+      "key": "basic_blade/steel_of_the_founders",
+      "durability": 2901,
+      "integrity": -2,
+      "magicCapacity": 90,
+      "damage": 10,
+      "attackSpeed": 0.4,
+      "effects": {
+        "sweeping": 1
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          0.9375
+        ]
+      },
+      "glyph": {
+        "tint": "51444E"
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/basic_blade/steel_of_the_founders"
+        }
+      ]
+    }
+  ]
+}

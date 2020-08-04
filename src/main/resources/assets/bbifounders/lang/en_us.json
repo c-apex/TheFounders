@@ -7,5 +7,13 @@
 
   "block.bbifounders.bigboyium_ore": "Bigboyium Ore",
 
-  "itemGroup.bbiFounders": "BBI Supplemental Resources"
+  "itemGroup.bbiFounders": "BBI Supplemental Resources",
+
+  "tetra.variant.basic_blade/bigboyium": "Bigboyium blade",
+  "tetra.variant.basic_blade/bigboyium.prefix": "Bigboyium",
+  "tetra.variant.basic_blade/steel_of_the_founders": "Steel of the Founders blade",
+  "tetra.variant.basic_blade/steel_of_the_founders.prefix": "Steel of the Founders",
+  "tetra.variant.counterweight/steel_of_the_founders": "Steel of the Founders counterweight",
+  "tetra.variant.heavy_blade/netherite": "Heavy Steel of the Founders blade",
+  "tetra.variant.heavy_blade/netherite.prefix": "Steel of the Founders"
 }
