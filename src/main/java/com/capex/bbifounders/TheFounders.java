@@ -1,11 +1,9 @@
 package com.capex.bbifounders;
 
 import com.capex.bbifounders.util.RegistryHandler;
-import com.capex.bbifounders.world.gen.BBIOreGen;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -39,7 +37,6 @@ public class TheFounders
     {
         // some preinit code
         LOGGER.info("**BRAAAAAAAAM** The Big Boys have arrived!");
-        BBIOreGen.generateOre();
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {

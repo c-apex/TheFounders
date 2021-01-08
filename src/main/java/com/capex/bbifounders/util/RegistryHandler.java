@@ -2,7 +2,6 @@ package com.capex.bbifounders.util;
 
 import com.capex.bbifounders.TheFounders;
 import com.capex.bbifounders.blocks.BlockItemBase;
-import com.capex.bbifounders.entities.Founder;
 import com.capex.bbifounders.items.ItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -42,15 +41,5 @@ public class RegistryHandler {
 
     // BLOCK ITEMS
     public static final RegistryObject<Item> BIGBOYIUM_ORE_ITEM = ITEMS.register("bigboyium_ore", () -> new BlockItemBase(BIGBOYIUM_ORE.get()));
-
-    // ENTITY TYPES
-    /*
-    FIX LATER: Aug 3, 2020
-    entities/Founder class seems to be referenced, just not registered as expected, meaning it does not load in game.
-     */
-    public static final RegistryObject<EntityType<Founder>> FOUNDER = ENTITY_TYPES.register("founder",
-            () -> EntityType.Builder.create(Founder::new, EntityClassification.CREATURE)
-                    .size(1.0f, 1.0f)
-                    .build(new ResourceLocation(TheFounders.MOD_ID, "founder").toString()));
 
 }
