@@ -10,7 +10,7 @@ A Minecraft mod to supplement JAMS gameplay.
 
 ---- 
 ### Other Information
-The Founders is a mod to supplement gameplay on Just Another Modded Server. JAMS is a Minecraft server, running mods on Forge 1.16.4.
+The Founders is a mod to supplement gameplay on Just Another Modded Server. JAMS is a Minecraft server, running mods on Forge 1.16.5.
 ---- 
 ### Contributing to the Server
 We are always looking for active players, advertisers, and even staff! Join our Discord for more information!
