@@ -2,9 +2,9 @@
 A Minecraft mod to supplement JAMS gameplay.
 ---- 
 ### Licenses
-**MINECRAFT FORGE** is licensed under [LGPL 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt "LGPL 2.1").
+**MINECRAFT FORGE** is licensed under LGPL 2.1.
 
-**THE FOUNDERS (CODE)** is licensed under [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.txt "GPL 3.0").
+**THE FOUNDERS (CODE)** is licensed under MIT.
 
 **THE FOUNDERS (ASSETS)** is licensed under All Rights Reserved.
 
@@ -22,4 +22,3 @@ We are always looking for active players, advertisers, and even staff! Join our 
 *You can always contribute just by being there, and being fun to be around! Help new players, or contribute to this mod, etc!*
 
 ---- 
-## [BIGBOYINDUSTRIES.US](http://bigboyindustries.us "BIGBOYINDUSTRIES.US")
